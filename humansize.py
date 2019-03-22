@@ -1,6 +1,6 @@
 SUFFIXES = ['KB', 'MB', 'GB', 'TB', 'PB', 'EX', 'ZB', 'YB']
 
-def approximate_size(size=10000):
+def approximate_size(size=100000):
     """convert a file size to human/readable form
     """
     
